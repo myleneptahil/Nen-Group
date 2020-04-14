@@ -1,0 +1,108 @@
+
+
+  
+[type='radio']{
+  margin: 10px 0px 55px 0px;
+}
+
+.btn{
+  width: 30%;
+  height: 35px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #ffff80;
+  color: #ff0000;
+}
+
+h2 {
+  color: blue;
+  background-color: orange !important;
+} 
+
+h1 {
+  color:red; 
+  background-color:yellow; 
+  font-family:Lobster, monospace;
+  font-size: 50px;
+}
+
+
+.thick-green-border {
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.purple-text {
+  color: purple;
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.silver-background {
+  background-color: silver;
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.medium-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%; /*Makes an image, a circle*/
+}
+
+.box {
+ width: 500px;
+ border-style: solid;
+ border-color: black;
+ border-width: 5px;
+ text-align: center;
+ padding: 20px 40px 20px 40px;
+
+}
+
+.red-box {
+  height: 100px;
+  background-color: crimson;
+  color: #fff; /*color shades of gray*/
+}
+
+.blue-box {
+  height: 550px;
+  background-color: #7FB3D5;
+  color: #fff; /*color shades of gray*/
+  -webkit-animation-name: myanimation;
+  -webkit-animation-duration: 20s;
+}
+
+@-webkit-keyframes myanimation{
+  0%{background-color: #7FB3D5;}
+  25%{background-color: red;}
+  50%{background-color: yellow;}
+  75%{background-color: orange;}
+  100%{background-color: #7FB3D5;}
+}
+
+.yellow-box {
+  height: 200px;
+  background-color: yellow;
+  color: black;
+}
+
+
+.shipping-container{
+   display: grid;
+   grid-template-columns: 450px 450px;
+   grid-template-rows: 50px 50px 50px;
+   grid-column-gap: 30px;
+}
+
+
+body {    
+  background-color:lightblue;
+  font-family: monospace;
+}
+
+
